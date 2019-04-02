@@ -1,0 +1,23 @@
+#btn-openSettings {
+    margin-bottom: 30px;
+}
+
+#infinite-scroll-table {
+    height: 500px !important;
+    margin-bottom: 50px;
+    color: darkslategrey;
+}
+
+.btn-edit {
+    background-image: url("edit1.png");
+    display: inline-block;
+    background-size: contain;
+    min-height: 22px;
+    min-width: 22px;
+    cursor: pointer;
+}
+
+.page-header {
+    color: darkslategrey;
+}
+

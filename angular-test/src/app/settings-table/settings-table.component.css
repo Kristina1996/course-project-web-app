@@ -1,0 +1,101 @@
+.modalbackground {
+    margin: 0; /* убираем отступы */
+    padding: 0; /* убираем отступы */
+    position: fixed; /* фиксируем положение */
+    top:0; /* растягиваем блок по всему экрану */
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(0,0,0,0.5); /* полупрозрачный цвет фона */
+    z-index:100; /* выводим фон поверх всех слоев на странице браузера */
+    opacity: 1; /* Делаем окно видимым */
+    pointer-events: auto; /* элемент видим для событий мыши */
+}
+
+/* ширина диалогового окна и его отступы от экрана */
+.modalwindow {
+    width: 100%;
+    max-width: 375px;
+    margin: 5% auto;
+    padding: 2%;
+    background: #fff;
+    border-radius: 3px;
+    color: darkslategrey;
+}
+
+.modalwindow h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.modalwindow p {
+    padding: 0;
+    margin: 4% 0 8% 0;
+}
+
+.close {
+    display: block;
+    color: #fff;
+    background: #369;
+    padding: 2%;
+    margin: 0 auto;
+    width: 10%;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.close:hover {
+    background-color: steelblue;
+}
+
+ul {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-left: 0;
+}
+
+li {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	padding: 7px 20px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border: 2px solid lightblue;
+	list-style-type: none;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: left;
+	
+	vertical-align: center;
+}
+
+ul > li:hover {
+    box-shadow: 0 0 15px lightblue;
+}
+
+.down {
+	display: inline-block;
+	background-image: url('arrow-down-32.png');
+    background-size: contain;
+	min-height: 22px;
+	min-width: 22px;
+	cursor: pointer;
+	float: right;
+    margin-right: 5px !important;
+}
+
+.up {
+	display: inline-block !important;
+	background-image: url('arrow-up-32.png') !important;
+    background-size: contain;
+	min-height: 22px;
+	min-width: 22px;
+	cursor: pointer;
+	float: right;
+}
+
+#save {
+    margin-left: 35%;
+}

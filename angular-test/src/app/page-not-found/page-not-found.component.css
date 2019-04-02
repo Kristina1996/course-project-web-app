@@ -1,0 +1,15 @@
+body {
+	background-image: url(https://media.giphy.com/media/4TiJSPrpyCr8W88fOA/giphy.gif);
+}
+
+p {
+	font-size: 100px;
+}
+
+.img {
+	min-height: 700px;
+	min-width: 1000px;
+	background-image: url(https://media.giphy.com/media/4TiJSPrpyCr8W88fOA/giphy.gif);
+	background-size: auto;
+	background-size: contain;
+}
